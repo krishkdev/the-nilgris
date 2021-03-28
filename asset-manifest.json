@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/geekybugger/the-nilgris.git/static/css/main.05e0555c.chunk.css",
+    "main.js": "/geekybugger/the-nilgris.git/static/js/main.74537a42.chunk.js",
+    "main.js.map": "/geekybugger/the-nilgris.git/static/js/main.74537a42.chunk.js.map",
+    "runtime-main.js": "/geekybugger/the-nilgris.git/static/js/runtime-main.f2e90aec.js",
+    "runtime-main.js.map": "/geekybugger/the-nilgris.git/static/js/runtime-main.f2e90aec.js.map",
+    "static/js/2.08708d95.chunk.js": "/geekybugger/the-nilgris.git/static/js/2.08708d95.chunk.js",
+    "static/js/2.08708d95.chunk.js.map": "/geekybugger/the-nilgris.git/static/js/2.08708d95.chunk.js.map",
+    "index.html": "/geekybugger/the-nilgris.git/index.html",
+    "static/css/main.05e0555c.chunk.css.map": "/geekybugger/the-nilgris.git/static/css/main.05e0555c.chunk.css.map",
+    "static/js/2.08708d95.chunk.js.LICENSE.txt": "/geekybugger/the-nilgris.git/static/js/2.08708d95.chunk.js.LICENSE.txt",
+    "static/media/playback.6a5fc296.mp4": "/geekybugger/the-nilgris.git/static/media/playback.6a5fc296.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2e90aec.js",
+    "static/js/2.08708d95.chunk.js",
+    "static/css/main.05e0555c.chunk.css",
+    "static/js/main.74537a42.chunk.js"
+  ]
+}
