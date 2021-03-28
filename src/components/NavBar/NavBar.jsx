@@ -3,7 +3,7 @@ import Styles from "./NavBar.module.css";
 const NavBar = () => {
   return (
     <header>
-      <h2 className={Styles.logo}>Travel</h2>
+      <h2 className={Styles.logo}>Thenilgris</h2>
       <div className={Styles.toggle}></div>
     </header>
   );

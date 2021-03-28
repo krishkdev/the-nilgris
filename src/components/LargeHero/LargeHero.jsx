@@ -8,27 +8,33 @@ import instagram from "../../assets/images/instagram.png";
 const LargeHero = () => {
   return (
     <div className={Styles.container}>
-      {/* <video src={video} playsInline autoPlay muted loop></video> */}
-      <div className="overlay"></div>
-      <div className="text">
+      <video src={video} playsInline autoPlay muted loop></video>
+      <div className={Styles.overlay}></div>
+      <div className={Styles.text}>
         <h2>Never Stop</h2>
-        <h3>Exploring</h3>
+        <h3>Exploring the world</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-          sapiente, a ducimus nulla eveniet voluptatem architecto repellat
-          commodi similique tenetur!
+          Welcome to Nilgiris, one of the oldest mountain ranges, located at the
+          tri-junction of Tamil Nadu, Kerala and Karnataka. Nilgiris is a part
+          of the Western Ghats. Ooty the “Queen of Hill Stations”
         </p>
         <a href="#">Explore</a>
       </div>
-      <ul className="social">
+      <ul className={Styles.social}>
         <li>
-          <img src={facebook} alt="social" />
+          <a href="#">
+            <img src={facebook} alt="social" />
+          </a>
         </li>
         <li>
-          <img src={twitter} alt="social" />
+          <a href="#">
+            <img src={twitter} alt="social" />
+          </a>
         </li>
         <li>
-          <img src={instagram} alt="social" />
+          <a href="#">
+            <img src={instagram} alt="social" />
+          </a>
         </li>
       </ul>
     </div>

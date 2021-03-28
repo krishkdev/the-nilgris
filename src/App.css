@@ -20,3 +20,12 @@
   color: #fff;
   z-index: 2;
 }
+.showcase.active {
+  right: 300px;
+}
+@media (max-width: 991px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+}
