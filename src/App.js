@@ -1,19 +1,21 @@
 import React from "react";
-//import "normalize.css";
-import "./App.css";
+import { ThemeProvider } from "styled-components";
 import LargeHero from "./components/LargeHero/LargeHero";
-import MenuItems from "./components/NavBar/MenuItems";
-import NavBar from "./components/NavBar/NavBar";
+import NavHeader from "./components/NavBar/NavHeader";
+import { GlobalStyles } from "./global";
+import { theme } from "./theme";
 
 const App = () => {
   return (
-    <div>
-      <section className="showcase">
-        <NavBar />
-        <LargeHero />
-      </section>
-      <MenuItems />
-    </div>
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyles />
+        <section>
+          <NavHeader />
+          <LargeHero />
+        </section>
+      </>
+    </ThemeProvider>
   );
 };
 
