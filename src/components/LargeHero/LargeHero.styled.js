@@ -58,6 +58,8 @@ export const StyledText = styled.div`
     color: #111;
     letter-spacing: 2px;
     transition: 0.2s;
+    opacity: 0;
+    transform: translateY(-200px);
   }
   a:hover {
     letter-spacing: 6px;

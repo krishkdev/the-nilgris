@@ -1,5 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
+import Explore from "./components/Explore/Explore";
 import LargeHero from "./components/LargeHero/LargeHero";
 import NavHeader from "./components/NavBar/NavHeader";
 import { GlobalStyles } from "./global";
@@ -14,6 +15,7 @@ const App = () => {
           <NavHeader />
           <LargeHero />
         </section>
+        {/* <Explore /> */}
       </>
     </ThemeProvider>
   );

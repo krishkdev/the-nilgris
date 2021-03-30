@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
     html, body {
         margin: 0;
         padding: 0;
@@ -16,7 +15,7 @@ export const GlobalStyles = createGlobalStyle`
         text-rendering: optimizeLegibility;
     }
     section {
-        position: absolute;
+        position: relative;//absolute
         right: 0;
         width: 100%;
         min-height: 100vh;
