@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This app is live at https://the-nilgris.web.app . Leave a star if you like my project.
+
 ## Available Scripts
 
 In the project directory, you can run:
